@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNR 2024 Rainfall Heatmap</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        h1 { color: #333; }
+        iframe { width: 90%; height: 600px; border: none; }
+    </style>
+</head>
+<body>
+    <h1>PNR 2024 Rainfall Heatmap</h1>
+    <iframe src="{{ url_for('static', filename='map.html') }}"></iframe>
+</body>
+</html>
